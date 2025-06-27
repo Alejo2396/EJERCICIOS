@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+label.form-label {
+  font-weight: bold;
+}
+
+input[readonly] {
+  background-color: #e9ecef;
+  font-weight: bold;
+  text-align: center;
+}
+
+#btnSalir {
+  background-color: #ccff33;
+  color: red;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+#btnSalir:hover {
+  background-color: #b3e600;
+}
+
+.resaltado {
+  background-color: #ffe6e6 !important;
+}
+
+table th, table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer strong {
+  font-weight: bold;
+  color: blue;
+}
